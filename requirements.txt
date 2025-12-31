@@ -3,7 +3,7 @@ uvicorn[standard]==0.29.0
 python-multipart==0.0.9
 
 faster-whisper==1.0.3
-ctranslate2==4.4.0
+ctranslate2>=4.5.0
 
 numpy>=1.23
 scipy>=1.10
