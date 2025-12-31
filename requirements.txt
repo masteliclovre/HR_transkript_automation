@@ -1,10 +1,46 @@
-fastapi==0.110.0
-uvicorn[standard]==0.29.0
-python-multipart==0.0.9
+# ========================================
+# Core ML & Audio Processing
+# ========================================
+faster-whisper
+torch
+numpy
+scipy
 
-faster-whisper==1.0.3
-ctranslate2>=4.5.0
+# ========================================
+# Audio I/O & Processing
+# ========================================
+sounddevice
+pydub
+pygame
+pyttsx3
 
-numpy>=1.23
-scipy>=1.10
-python-dotenv==1.0.1
+# ========================================
+# Voice Activity Detection (VAD)
+# ========================================
+silero-vad
+webrtcvad-wheels ; sys_platform == "win32"
+
+# ========================================
+# LLM Providers
+# ========================================
+openai
+groq
+
+# ========================================
+# Text-to-Speech
+# ========================================
+elevenlabs
+
+# ========================================
+# FastAPI Server
+# ========================================
+fastapi
+uvicorn[standard]
+python-multipart
+websockets
+
+# ========================================
+# Utilities
+# ========================================
+python-dotenv
+hf_transfer
