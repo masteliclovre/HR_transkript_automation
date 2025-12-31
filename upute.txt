@@ -1,1 +1,9 @@
 python main.py --preset youtube --url RUNPOD_URL/transcribe --wav AUDIO.wav --vad
+
+
+
+apt-get update
+apt-get install -y libcudnn9-cuda-12
+apt-get install -y libcudnn9-dev-cuda-12 || true
+ldconfig
+uvicorn server:app --host 0.0.0.0 --port 8000
