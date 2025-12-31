@@ -1,1 +1,1 @@
-python wav_remote_agent.py ./input.wav
+python main.py --preset youtube --url RUNPOD_URL/transcribe --wav AUDIO.wav --vad
